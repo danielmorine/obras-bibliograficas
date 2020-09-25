@@ -9,5 +9,6 @@ namespace ObrasBibliograficasWeb.Services.Interfaces
     {
         Task<IEnumerable<UserQuery>> GetAllAsync(BibliographiesModel model);
         Task AddRangeAsync();
+        string FormatName(string name);
     }
 }

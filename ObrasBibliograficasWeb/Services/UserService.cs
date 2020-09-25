@@ -43,7 +43,7 @@ namespace ObrasBibliograficasWeb.Services
             return list;
         }
 
-        private string FormatName(string name)
+        public string FormatName(string name)
         {
             TextInfo cultInfo = new CultureInfo("en-US", false).TextInfo;
 
@@ -98,7 +98,6 @@ namespace ObrasBibliograficasWeb.Services
                 return sb.ToString();
             }
         }
-
 
         private static string FormatWord(string word)
         {
