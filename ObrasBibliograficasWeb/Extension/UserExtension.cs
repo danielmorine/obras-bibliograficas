@@ -59,6 +59,33 @@ namespace ObrasBibliograficasWeb.Extension
                     ID = 10,
                     Name = "Michael"
                 },
+                new User
+                {
+                    ID = 11,
+                    Name = "silvio"
+                },
+                 new User
+                {
+                    ID = 12,
+                    Name = "Daniela de Oliveira"
+                },
+                 new User
+                {
+                    ID = 13,
+                    Name = "Marcelo Pavão"
+                },
+                  new User
+                {
+                    ID = 14,
+                    Name = "Arlette Pinheiro da Silva Torres"
+                },                         
+               {
+                   new User
+                   {
+                       ID = 15,
+                       Name = "José Ivaldo Gomes de Andrade Filho"
+                   }
+               }
             };
         }
     }

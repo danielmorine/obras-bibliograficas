@@ -23,8 +23,8 @@ namespace ObrasBibliograficasWeb.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(BibliographiesModel model)
         {
-            await _userService.GetAllAsync(model);
-            return View();
+            var result = await _userService.GetAllAsync(model);
+            return View("Result", result);
         }
     }
 }

@@ -1,0 +1,20 @@
+﻿@model IEnumerable<ObrasBibliograficasWeb.Query.UserQuery>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <ul class="list-group">
+            @foreach (var value in Model)
+            {
+                <li class="list-group-item">@value.Name</li>
+            }
+        </ul>
+
+        <div>
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    </div>
+</div>

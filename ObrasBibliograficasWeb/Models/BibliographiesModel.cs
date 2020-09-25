@@ -1,8 +1,6 @@
-﻿using System;
+﻿using ObrasBibliograficasWeb.Query;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ObrasBibliograficasWeb.Models
 {
@@ -10,6 +8,6 @@ namespace ObrasBibliograficasWeb.Models
     {
         [Range(0, 100, ErrorMessage = "Some another error message insert here!")]
 
-        public int Number { get; set; }
+        public int Number { get; set; }             
     }
 }
